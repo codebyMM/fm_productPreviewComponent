@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-using-html-and-css-DVtPMd_2g7)
-- Live Site URL: [Add live site URL here](https://codebymm.github.io/fm_productPreviewComponent/)
+- Solution URL: [My solution url](https://www.frontendmentor.io/solutions/product-preview-card-component-using-html-and-css-DVtPMd_2g7)
+- Live Site URL: [My solution live site URL](https://codebymm.github.io/fm_productPreviewComponent/)
 
 ## My process
 
