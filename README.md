@@ -23,18 +23,18 @@ Users should be able to:
 
 ### Screenshot
 
-**Desktop Version**
+**Desktop Version** <br>
 ![](./screenshots/desktop.jpeg)
 
-<br></br>
+<br>
 
-**Mobile Version**
+**Mobile Version** <br>
 ![](./screenshots/mobile.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-using-html-and-css-DVtPMd_2g7)
+- Live Site URL: [Add live site URL here](https://codebymm.github.io/fm_productPreviewComponent/)
 
 ## My process
 
