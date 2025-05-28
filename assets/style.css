@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    /* Font Family */
+    --Montserrat: "Montserrat", sans-serif;
+    --Fraunces: "Fraunces", serif;
+
+    /* Color */
+    --Dark-green: hsl(158, 42%, 18%);
+    --light-green: hsl(158, 36%, 37%);
+    --Black: Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: var(--Montserrat);
+    background: var(--Cream);
+    height: 100dvh;
+}
+
+main {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width: 550px;
+    border-radius: 6px;
+    background: var(--White);
+}
+
+.card-img {
+    background: url(./images/image-product-desktop.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 6px 0 0 6px;
+    flex-basis: 50%;
+}
+
+.card-content {
+    flex-basis: 50%;
+    padding: 2rem;
+}
+
+.card-label {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--Grey);
+    font-size: .8em;
+    letter-spacing: 4px;
+}
+
+.card-title {
+    font-family: var(--Fraunces);
+    padding: 1rem 0;
+    line-height: 1.1;
+}
+
+.card-description {
+    color: var(--Grey);
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.card-content div {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 1.5rem;
+    gap: 1rem;
+}
+
+.price {
+    font-size: 2em;
+    color: var(--light-green);
+    font-family: var(--Fraunces);
+}
+ span {
+    font-size: .8em;
+    color: var(--Grey);
+}
+
+.add-btn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    color: #fff;
+    font-family: var(--Montserrat);
+    background: var(--light-green);
+    padding: .8rem 0;
+    font-weight: 700;
+    font-size: .8em;
+    cursor: pointer;
+    transition: background .5s ease;
+}
+
+.add-btn:hover {
+    background: var(--Dark-green);
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        padding: 1rem;
+        display: block;
+    }
+    .card {
+        flex-direction: column;
+        height: 550px;
+        width: 100%;
+    }
+    .card-img {
+        background-position: center;
+        display: block;
+        border-radius: 6px 6px 0 0;
+    }
+    .card-content {
+        padding: 1rem;
+    }
+    .card-content div {
+        padding: 1rem 0;
+    }
+    
+}
